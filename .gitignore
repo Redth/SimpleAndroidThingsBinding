@@ -6,6 +6,8 @@
 [Bb]in/
 packages/
 TestResults/
+output/
+externals/
 
 # globs
 Makefile.in
