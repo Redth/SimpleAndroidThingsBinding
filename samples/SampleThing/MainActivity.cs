@@ -6,7 +6,7 @@ using Android.Things.Pio;
 
 namespace SampleThing
 {
-    [Activity(Label = "Sample Thing", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Sample Thing")]
     [IntentFilter (new[] { Intent.ActionMain }, Categories = new[] { Intent.CategoryLauncher })]
     [IntentFilter(new[] { Intent.ActionMain }, Categories = new[] { "android.intent.category.IOT_LAUNCHER" })]
     public class MainActivity : Activity
